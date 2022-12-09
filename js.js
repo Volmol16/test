@@ -9,17 +9,17 @@ const elts = {
 
 // The strings to morph between. You can change these to anything you want!
 const texts = [
-	"Привет",
-	"Я",
-	"Всё",
+	"Теперь",
+	"я",
+	"всё",
 	"знаю",
 	"о",
 	"тебе!"
 ];
 
 // Controls the speed of morphing.
-const morphTime = 1;
-const cooldownTime = 0.5;
+const morphTime = 2;
+const cooldownTime = 1;
 
 let textIndex = texts.length - 1;
 let time = new Date();
